@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1600</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>136</y>
+        <width>75</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вскрыть</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="open">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>75</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вскрыть</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_10">
+      <property name="geometry">
+       <rect>
+        <x>836</x>
+        <y>610</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>184</y>
+        <width>75</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вскрыть</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>208</y>
+        <width>330</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_12">
+      <property name="geometry">
+       <rect>
+        <x>1384</x>
+        <y>610</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>330</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>1459</x>
+        <y>190</y>
+        <width>120</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Использовать</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>64</y>
+        <width>330</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>1105</x>
+        <y>40</y>
+        <width>120</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Карта&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Использования&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>1282</x>
+        <y>40</y>
+        <width>120</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Карта&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Использования&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>330</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>340</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>184</y>
+        <width>330</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_6">
+      <property name="geometry">
+       <rect>
+        <x>1384</x>
+        <y>340</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>112</y>
+        <width>75</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вскрыть</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>1105</x>
+        <y>190</y>
+        <width>120</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Использовать</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>88</y>
+        <width>330</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>136</y>
+        <width>330</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>515</x>
+        <y>40</y>
+        <width>570</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: silver;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Game_Progress&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_8">
+      <property name="geometry">
+       <rect>
+        <x>292</x>
+        <y>610</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_5">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>340</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>610</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>160</y>
+        <width>75</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вскрыть</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>112</y>
+        <width>330</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_4">
+      <property name="geometry">
+       <rect>
+        <x>836</x>
+        <y>340</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_11">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>610</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>64</y>
+        <width>75</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вскрыть</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>208</y>
+        <width>75</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вскрыть</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>1282</x>
+        <y>190</y>
+        <width>120</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Использовать</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>1459</x>
+        <y>40</y>
+        <width>120</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Карта&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Использования&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>88</y>
+        <width>75</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вскрыть</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_3">
+      <property name="geometry">
+       <rect>
+        <x>564</x>
+        <y>340</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_9">
+      <property name="geometry">
+       <rect>
+        <x>564</x>
+        <y>610</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_2">
+      <property name="geometry">
+       <rect>
+        <x>292</x>
+        <y>340</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>515</x>
+        <y>20</y>
+        <width>570</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: silver;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Game_Progress&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_21">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>350</y>
+        <width>280</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border: 3px solid #fff;
+	font-weight: bold;
+	color: green;
+	font-size: 14px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 20px;	
+}
+QPushButton:hover{
+	background-color:silver;	
+}</string>
+      </property>
+      <property name="text">
+       <string>Готов</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_13">
+      <property name="geometry">
+       <rect>
+        <x>836</x>
+        <y>420</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_14">
+      <property name="geometry">
+       <rect>
+        <x>836</x>
+        <y>640</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_15">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>430</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_16">
+      <property name="geometry">
+       <rect>
+        <x>292</x>
+        <y>430</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_17">
+      <property name="geometry">
+       <rect>
+        <x>564</x>
+        <y>430</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_18">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>430</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_19">
+      <property name="geometry">
+       <rect>
+        <x>1384</x>
+        <y>430</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_20">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>640</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_21">
+      <property name="geometry">
+       <rect>
+        <x>1384</x>
+        <y>650</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_22">
+      <property name="geometry">
+       <rect>
+        <x>564</x>
+        <y>650</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_23">
+      <property name="geometry">
+       <rect>
+        <x>292</x>
+        <y>640</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="player_24">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>640</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image:url(C:/Users/Ilsaf/PycharmProjects/first_project/Game_bunker/Bunker/images/def_prof_img.png);
+	border-radius: 30px;	
+}
+QPushButton:hover{
+	background-color:silver;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1600</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
